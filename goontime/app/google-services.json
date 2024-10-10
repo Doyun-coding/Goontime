@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215534370594",
+    "project_id": "goonbarytime-789da",
+    "storage_bucket": "goonbarytime-789da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215534370594:android:de4f9924ce1dbc6c3aef7b",
+        "android_client_info": {
+          "package_name": "com.example.goonbarytime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215534370594-ocs485qqih6bvcd9c3o1j78h4ucrg5ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBOtDsvGuB4P0m63UN97NU6LAP9PMPHoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215534370594-ocs485qqih6bvcd9c3o1j78h4ucrg5ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

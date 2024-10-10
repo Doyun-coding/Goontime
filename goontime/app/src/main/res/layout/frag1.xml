@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Frag1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/textView_everytime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="군바리타임"
+            android:textStyle="bold"
+            android:textColor="#318843" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="25dp"
+            android:text="대한민국 육군"
+            android:textColor="#212121"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/search" />
+
+        <ImageView
+            android:id="@+id/button_user"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/person" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="144dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1600dp">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="1500dp"
+                        android:layout_height="160dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="160dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/text_bold_limpid"
+                            android:gravity="center_horizontal"
+                            android:text="상쾌한 아침식사"
+                            android:textColor="#2A2A29" />
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="160dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/text_bold_limpid"
+                            android:gravity="center_horizontal"
+                            android:text="꿀맛같은 점심식사"
+                            android:textColor="#2A2A29" />
+
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="160dp"
+                            android:background="@drawable/text_bold_limpid"
+                            android:gravity="center_horizontal"
+                            android:text="최고의 저녁식사"
+                            android:textColor="#2A2A29" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <Button
+                    android:id="@+id/button_mma"
+                    android:layout_marginTop="170dp"
+                    android:layout_width="50dp"
+                    android:layout_height="73dp"
+                    android:background="#00ff0000"/>
+                <Button
+                    android:id="@+id/button_mnd"
+                    android:layout_width="50dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="170dp"
+                    android:background="#00ff0000"
+                    android:layout_marginLeft="65dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="170dp"
+                    android:background="@drawable/army3" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="170dp"
+                    android:background="@drawable/mnd2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="220dp"
+                    android:text="병무청" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="72dp"
+                    android:layout_marginTop="220dp"
+                    android:text="국방부" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="170dp"
+                    android:background="@drawable/icon_army" />
+
+                <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="220dp"
+                    android:text="대한민국" />
+                <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="142dp"
+                    android:layout_marginTop="235dp"
+                    android:text="육군" />
+                <Button
+                    android:id="@+id/button_mil"
+                    android:layout_width="50dp"
+                    android:layout_height="82dp"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="130dp"
+                    android:background="#00ff0000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="255dp"
+                    android:background="@drawable/advertise"
+                    android:gravity="center"
+                    android:text="광고 자리"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/board_favorite"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="370dp"
+                    android:background="#00ff0000"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_marginTop="360dp"
+                    android:background="@drawable/text_bold_limpid" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:text="즐겨찾는 게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="385dp"
+                    android:text="더 보기>"
+                    android:textStyle="bold"
+                    android:textColor="#318843"
+                    android:layout_marginLeft="300dp"/>
+
+                <Button
+                    android:id="@+id/button_free"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="415dp"
+                    android:background="#00ff0000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="425dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="자유게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/free_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="425dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="100dp"/>
+                <Button
+                    android:id="@+id/button_secret"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="450dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="460dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="비밀게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_done"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="485dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="495dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="전역게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="520dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="530dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="이등병게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="555dp"
+                    android:background="#00ff0000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="565dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="일병게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="590dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="600dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="상병게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="627dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="635dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="병장게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="662dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="670dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="정보게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_boast"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="697dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="705dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="자랑게시판"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/button_angry"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="732dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="740dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="비리여기모두모여~"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/text_bold_limpid"
+                    android:layout_marginTop="800dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="추천 정보"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="820dp"
+                    android:layout_marginLeft="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="1120dp"
+                    android:background="@drawable/text_bold_limpid" />
+                <Button
+                    android:id="@+id/button_hot"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="1135dp"
+                    android:background="#00ff0000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOT 게시물"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="1140dp"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="더 보기>"
+                    android:textStyle="bold"
+                    android:textColor="#318843"
+                    android:layout_marginTop="1140dp"
+                    android:layout_marginLeft="300dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:text="광고 자리"
+                    android:gravity="center"
+                    android:background="@drawable/advertise"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="1390dp"/>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

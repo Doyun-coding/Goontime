@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_picture" />
+            <TextView
+                android:id="@+id/item_nickname_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#318843"
+                android:textStyle="bold"
+                tools:text="닉네임"/>
+            <TextView
+                android:id="@+id/item_title_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="TITLE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="38dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"/>
+            <TextView
+                android:id="@+id/item_contents_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="63dp"
+                tools:text="Contents"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:textSize="10sp"
+                android:text="자유게시판"
+                android:textColor="#3EB657"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/icon_line"
+                android:layout_marginTop="102dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
